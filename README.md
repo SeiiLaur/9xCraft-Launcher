@@ -5,7 +5,7 @@ ______________________________
 _______________________________
 
 
-Welcome to the official GitHub page for the 9xCraft Minecraft Launcher, the successor of the 9xCraft Launcher. Thanks for stopping by, I appreciate it.
+Welcome to the official GitHub page for the 9xCraft Minecraft Launcher, Thanks for stopping by, I appreciate it.
 
 This launcher is basically a graphical extension to simple command line strings used to run older minecraft versions directly from the .jar files, very similar to Betacraft, which I heavily recommend you check out over at https://betacraft.uk/
 
