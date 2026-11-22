@@ -1,0 +1,143 @@
+9xCRAFT - THIRD-PARTY NOTICES
+=============================
+
+This file contains attribution and license notices for third-party libraries
+that may be distributed with 9xCraft. These notices apply to the named
+third-party components, not to original 9xCraft code or artwork.
+
+The 9xCraft project has its own separate license for its original material.
+Nothing in that separate license changes the terms that apply to these
+third-party components.
+
+IMPORTANT DISTRIBUTION NOTE
+---------------------------
+Keep the original copyright and license files/notices that accompany the
+exact library archives you redistribute. Some releases and platform-native
+bundles can contain additional components or file-specific notices not
+listed here. If the notice inside your copy differs from this document, do
+not remove or overwrite the notice supplied with that copy; reconcile this
+file with the exact version before distributing it.
+
+
+1. LIGHTWEIGHT JAVA GAME LIBRARY 2 (LWJGL 2)
+============================================
+
+Project: Lightweight Java Game Library (legacy 2.x line)
+Website: https://legacy.lwjgl.org/
+Source repository: https://github.com/LWJGL/lwjgl
+License: BSD 3-Clause-style license
+
+Files commonly used by 9xCraft:
+  lwjgl.jar
+  lwjgl_util.jar
+  LWJGL native libraries, where included
+
+Copyright (c) 2002-2007 Lightweight Java Game Library Project
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+
+* Neither the name of 'Light Weight Java Game Library' nor the names of
+  its contributors may be used to endorse or promote products derived
+  from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The LWJGL 2 project describes LWJGL 2 as BSD-licensed. Individual source
+files in particular LWJGL releases may contain copyright year ranges that
+differ from the project website's general license notice. Preserve the
+notices supplied with the exact LWJGL release being redistributed.
+
+
+2. JINPUT (JAVA INPUT API)
+==========================
+
+Project: JInput - Java library for accessing input devices
+Project website: https://jinput.github.io/jinput/
+Source repository: https://github.com/jinput/jinput
+License: BSD-style license; Debian copyright metadata identifies this as BSD-3-Clause.
+
+Files commonly used by 9xCraft:
+  jinput.jar
+  JInput platform/native plug-ins, only where included
+
+Copyright (c) 2003-2010 Sun Microsystems, Inc.
+Copyright (c) 2003-2010 Jeremy Booth
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The JInput project states that it is BSD-licensed and that copyright is
+attributed in the individual source files. Older JInput source files can
+also contain additional Sun Microsystems copyright/header text. Retain all
+copyright and license notices present in the exact JInput JAR and any
+platform plug-ins you distribute. Native plug-ins may include components
+with their own separate notices; inspect the exact native bundle before
+redistributing it.
+
+
+3. MINIJGL
+===========
+
+Project: MiniJGL, by Vulpovile
+Repository: https://github.com/Vulpovile/MiniJGL
+
+MiniJGL is a continuation/fork of LWJGL 2 and its README attributes the
+underlying LWJGL project. The repository currently does not provide a clear,
+separate license statement for Vulpovile's own changes. This notice file
+therefore does not assert that MiniJGL itself is licensed for redistribution.
+
+Before redistributing MiniJGL binaries or modified files, obtain and retain
+confirmation from the author of the applicable license and permission to
+redistribute the version you use. The original LWJGL license does not, by
+itself, establish the license for later modifications made by a fork author.
+
+
+VERSION CHECK REMINDER
+----------------------
+This notice is based on the publicly available LWJGL 2 and JInput project
+license information. Before publishing a release, check the exact versions
+of lwjgl.jar, lwjgl_util.jar, jinput.jar and any native libraries in that
+release, and include any additional third-party notices shipped with those
+specific archives.
