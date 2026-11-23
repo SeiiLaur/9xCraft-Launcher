@@ -7,7 +7,8 @@ _______________________________
 
 Welcome to the official GitHub page for the 9xCraft Minecraft Launcher, Thanks for stopping by, I appreciate it.
 
-This launcher is basically a graphical extension to simple command line strings used to run older Minecraft versions directly from the .jar files, very similar to Betacraft, which I heavily recommend you check out over at https://betacraft.uk/
+This launcher is basically a graphical extension to simple command line strings used to run older Minecraft versions directly from the .jar files, very similar to Betacraft, which I heavily recommend you check out over at https://betacraft.uk/.
+
 By they way, we now also have an official page at http://9xcraft.org/, go check it out!
 
 The launcher itself is designed to run with Java 5 SE and above. It supports Windows 98 - 11, Linux, MacOS and PowerPC (seperate release). Ontop of that, the Minecraft instances you play fetch their resources entirely locally, which completely bypasses the issue where versions like Classic or Indev would face several problems when not connected to the internet, sometimes not even being able to load worlds without throwing a java.lang.NullPointerException.
